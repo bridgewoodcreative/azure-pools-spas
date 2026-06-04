@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06283D"/>
+      <stop offset="0.55" stop-color="#0A3A5C"/>
+      <stop offset="1" stop-color="#0E6E83"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3FE0C5" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#3FE0C5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g stroke="#3FE0C5" fill="none" opacity="0.22">
+    <circle cx="980" cy="470" r="70"/>
+    <circle cx="980" cy="470" r="140"/>
+    <circle cx="980" cy="470" r="210"/>
+    <circle cx="980" cy="470" r="280"/>
+    <circle cx="980" cy="470" r="350"/>
+  </g>
+  <ellipse cx="300" cy="120" rx="380" ry="380" fill="url(#glow)"/>
+  <g transform="translate(96, 250)">
+    <g transform="translate(0, -54)">
+      <circle cx="22" cy="22" r="5" fill="#3FE0C5"/>
+      <circle cx="22" cy="22" r="13" stroke="#3FE0C5" stroke-width="2.4" opacity="0.85"/>
+      <circle cx="22" cy="22" r="21" stroke="#3FE0C5" stroke-width="2" opacity="0.5"/>
+    </g>
+    <text x="0" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="600" fill="#F8F6F1">Azure</text>
+    <text x="2" y="100" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#EAF6F4" opacity="0.9">Pools &amp; Spas</text>
+    <text x="2" y="170" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#3FE0C5" letter-spacing="1">Custom pools and spas, built to last a lifetime.</text>
+  </g>
+</svg>
