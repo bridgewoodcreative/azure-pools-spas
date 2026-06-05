@@ -37,6 +37,7 @@ environment variable before deploying:
 
 ```
 RESEND_API_KEY=...           # required to send mail
+CONTACT_TO="you@domain.com"  # inbox that receives submissions
 CONTACT_FROM="Name <addr>"   # optional, once a sending domain is verified
 ```
 

@@ -5,7 +5,7 @@ export const siteConfig = {
   description:
     "Azure Pools & Spas designs and builds custom swimming pools, spas, and water features. A considered process from first sketch to first swim.",
   tagline: "Custom pools and spas, built to last a lifetime.",
-  email: "info@bridgewoodcreative.com",
+  email: "hello@azurepoolsandspas.com",
   phone: "(555) 000-0100",
   phoneHref: "tel:+15550000100",
   serviceArea: "Available for projects across the region",

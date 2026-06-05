@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { navLinks, siteConfig } from "@/lib/site";
 import { Logo } from "@/components/marks";
-import { WaveDivider } from "@/components/ripple";
+import { GridTexture, GlowAccent } from "@/components/texture";
 
 export function SiteFooter() {
   return (
-    <footer className="relative mt-24 bg-abyss text-foam/80">
-      <WaveDivider color="var(--abyss)" className="absolute -top-[1px] left-0 -translate-y-full" />
-      <div className="container-edge grid gap-12 py-16 md:grid-cols-[1.4fr_1fr_1fr] md:py-20">
+    <footer className="relative isolate overflow-hidden border-t border-foam/10 bg-abyss text-foam/80">
+      <GridTexture opacity={0.045} size={64} />
+      <GlowAccent color="var(--teal)" className="opacity-60" />
+      <div className="container-edge relative z-10 grid gap-12 py-16 md:grid-cols-[1.4fr_1fr_1fr] md:py-20">
         <div className="max-w-sm">
           <Link href="/" className="text-foam" aria-label={`${siteConfig.name} home`}>
             <Logo />
@@ -50,7 +51,7 @@ export function SiteFooter() {
         </div>
       </div>
 
-      <div className="border-t border-foam/10">
+      <div className="relative z-10 border-t border-foam/10">
         <div className="container-edge flex flex-col gap-2 py-6 text-xs text-foam/50 md:flex-row md:items-center md:justify-between">
           <p>
             &copy; {new Date().getFullYear()} {siteConfig.name}. A Bridgewood Sites showcase.

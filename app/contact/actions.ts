@@ -46,6 +46,9 @@ export async function submitContact(
 
   const resend = new Resend(apiKey);
   const fromAddress = process.env.CONTACT_FROM ?? "Azure Pools & Spas <onboarding@resend.dev>";
+  // Where submissions are delivered. Set CONTACT_TO in the environment to the
+  // real inbox; falls back to the public brand address.
+  const toAddress = process.env.CONTACT_TO ?? siteConfig.email;
 
   const safe = (s: string) =>
     s.replace(/[<>&]/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;" })[c] as string);
@@ -53,7 +56,7 @@ export async function submitContact(
   try {
     const { error } = await resend.emails.send({
       from: fromAddress,
-      to: [siteConfig.email],
+      to: [toAddress],
       replyTo: email,
       subject: `New enquiry from ${name}${projectType ? ` - ${projectType}` : ""}`,
       text: [

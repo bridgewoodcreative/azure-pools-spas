@@ -3,7 +3,7 @@
 /* ----------------------------------------------------------------------------
    Azure Pools & Spas - design tokens
    Aquatic palette: deep abyss navy through teal to bright turquoise,
-   on a warm off-white. Fraunces for display, Inter for text.
+   on a warm off-white. Newsreader for display, Inter for text.
 ---------------------------------------------------------------------------- */
 
 :root {
@@ -39,7 +39,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
-  --font-display: var(--font-fraunces);
+  --font-display: var(--font-newsreader);
   --font-sans: var(--font-inter);
 
   --ease-fluid: cubic-bezier(0.22, 1, 0.36, 1);

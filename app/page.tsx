@@ -6,7 +6,7 @@ import { Reveal } from "@/components/reveal";
 import { Eyebrow, SectionHeading } from "@/components/section";
 import { ProjectCard } from "@/components/project-card";
 import { CtaBand } from "@/components/cta-band";
-import { RippleField, WaveDivider } from "@/components/ripple";
+import { RippleField } from "@/components/ripple";
 import { ButtonLink } from "@/components/ui/button";
 import { projects } from "@/lib/projects";
 import { services, processSteps } from "@/lib/content";
@@ -57,8 +57,7 @@ export default function HomePage() {
       </section>
 
       {/* Services */}
-      <section className="relative isolate overflow-hidden bg-abyss py-20 text-foam md:py-28">
-        <WaveDivider color="var(--abyss)" className="absolute -top-[1px] left-0 -translate-y-full" />
+      <section className="relative isolate overflow-hidden border-t border-ocean/10 bg-abyss py-20 text-foam md:py-28">
         <RippleField className="text-aqua opacity-[0.10]" />
         <div className="container-edge relative z-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
