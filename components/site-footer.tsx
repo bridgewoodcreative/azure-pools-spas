@@ -54,7 +54,7 @@ export function SiteFooter() {
       <div className="relative z-10 border-t border-foam/10">
         <div className="container-edge flex flex-col gap-2 py-6 text-xs text-foam/50 md:flex-row md:items-center md:justify-between">
           <p>
-            &copy; {new Date().getFullYear()} {siteConfig.name}. A Bridgewood Sites showcase.
+            &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
           <p>Designed and built with care. Imagery is royalty-free.</p>
         </div>

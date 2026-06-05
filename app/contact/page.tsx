@@ -52,10 +52,6 @@ export default function ContactPage() {
                 </div>
               ))}
             </dl>
-            <p className="mt-10 max-w-sm rounded-xl border border-ocean/12 bg-foam/50 p-5 text-sm leading-relaxed text-muted">
-              This is a capability showcase for Bridgewood Sites. Contact details
-              are generic, and the form asks for nothing sensitive or financial.
-            </p>
           </Reveal>
 
           {/* Form */}
