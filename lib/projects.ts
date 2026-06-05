@@ -14,99 +14,30 @@ export type Project = {
   story: string[];
 };
 
-// Representative design concepts that show the studio's range. These are
-// illustrative capability pieces, not specific client commissions.
+// Representative residential design concepts that show the studio's range.
+// These are illustrative capability pieces, not specific client commissions.
 export const projects: Project[] = [
   {
-    slug: "ledge-and-light",
-    name: "Ledge and Light",
-    category: "Geometric pool and spa",
-    setting: "Coastal lot",
+    slug: "still-water",
+    name: "Still Water",
+    category: "Modern backyard pool",
+    setting: "New build home",
     year: "Concept",
-    photo: "project-geometric",
+    photo: "modern",
     summary:
-      "A crisp rectilinear pool with a raised spa, set into a wide stone deck that reaches toward the water.",
+      "A calm pool set tight to a modern house, drawn so the water mirrors the architecture at dusk.",
     intro:
-      "A clean geometric pool built for a flat coastal lot, where the brief was simple lines and an easy path from house to water.",
-    scope: ["Rectangular pool", "Raised spa with spillover", "Stone surround deck", "Lounge terrace"],
+      "A pool for a modern new build, where the brief was a clean sheet of water that reflects the house rather than competing with it.",
+    scope: ["Rectilinear pool", "Flush deck edge", "Recessed lighting", "Reflective surface"],
     details: [
-      { label: "Shape", value: "Rectilinear, 16 by 36" },
-      { label: "Finish", value: "Pale quartz interior" },
-      { label: "Spa", value: "Raised, flush spillover" },
-      { label: "Deck", value: "Honed limestone" },
-    ],
-    story: [
-      "The site sat low and open to the shoreline, so the design keeps everything level and lets the long axis of the pool point at the view. A raised spa anchors the far end and spills back into the pool in a thin sheet.",
-      "A broad stone deck wraps the water on three sides, wide enough for loungers without crowding the edge. The interior finish is a pale quartz that reads turquoise in full sun and a deeper teal as the light drops.",
-    ],
-  },
-  {
-    slug: "horizon-edge",
-    name: "Horizon Edge",
-    category: "Infinity edge pool",
-    setting: "Elevated lot",
-    year: "Concept",
-    photo: "project-infinity",
-    summary:
-      "A vanishing edge that drops the waterline into the sky, drawn for a slope with a long view.",
-    intro:
-      "An infinity edge concept for an elevated lot, where the goal was to erase the far wall and hand the view back to the horizon.",
-    scope: ["Vanishing edge", "Catch basin and trough", "Sun shelf", "Glass mosaic waterline"],
-    details: [
-      { label: "Edge", value: "Single vanishing edge" },
-      { label: "Drop", value: "Concealed catch basin" },
-      { label: "Shelf", value: "Shaded sun ledge" },
-      { label: "Waterline", value: "Glass mosaic tile" },
-    ],
-    story: [
-      "The lot falls away on one side, which is the kind of grade an infinity edge is made for. Water runs over the far wall into a hidden trough and returns, so the surface always sits exactly at the lip.",
-      "A sun shelf on the near side gives a place to sit in a few inches of water. The waterline is wrapped in a glass mosaic that keeps the color bright where the light catches it.",
-    ],
-  },
-  {
-    slug: "canyon-reflection",
-    name: "Canyon Reflection",
-    category: "Architectural pool",
-    setting: "Desert retreat",
-    year: "Concept",
-    photo: "project-desert",
-    summary:
-      "A still reflecting pool that borrows the rock behind it and holds the dusk light on the water.",
-    intro:
-      "A quiet architectural pool for a desert retreat, designed to sit against the landscape rather than compete with it.",
-    scope: ["Reflecting pool", "Stone bench seating", "Recessed deck lighting", "Natural rock backdrop"],
-    details: [
-      { label: "Form", value: "Soft organic curve" },
+      { label: "Shape", value: "Rectilinear" },
+      { label: "Edge", value: "Flush with deck" },
+      { label: "Finish", value: "Dark interior" },
       { label: "Mood", value: "Still, reflective" },
-      { label: "Lighting", value: "Low recessed runs" },
-      { label: "Backdrop", value: "Existing rock face" },
     ],
     story: [
-      "The pool is shaped to follow the base of the rock, so the stone reads as one wall of the design. The water is kept calm on purpose, which turns the surface into a mirror at dawn and dusk.",
-      "Lighting is low and recessed along the deck so the rock and water carry the evening, with nothing bright in the eye line.",
-    ],
-  },
-  {
-    slug: "garden-lagoon",
-    name: "Garden Lagoon",
-    category: "Naturalistic pool",
-    setting: "Tropical garden",
-    year: "Concept",
-    photo: "project-tropical",
-    summary:
-      "A free-form lagoon tucked into planting, with a shaded pavilion at the water's edge.",
-    intro:
-      "A naturalistic pool for a planted garden, where the water is meant to feel like it was always there.",
-    scope: ["Free-form lagoon", "Shaded pavilion", "Beach entry", "Layered planting"],
-    details: [
-      { label: "Shape", value: "Free-form lagoon" },
-      { label: "Entry", value: "Zero depth beach" },
-      { label: "Shade", value: "Open pavilion" },
-      { label: "Planting", value: "Layered tropical" },
-    ],
-    story: [
-      "The edges curve to follow the planting beds, and a zero depth beach entry lets you walk in slowly. A pavilion sits right at the water so there is shade within reach of the pool.",
-      "Planting is layered close to the coping to soften every edge, so from the house the water looks like a clearing in the garden.",
+      "The house has long, low lines, so the pool keeps to a simple rectangle that runs parallel to it. A flush deck edge means the water sits right at the surface of the patio, with nothing to interrupt the reflection.",
+      "A darker interior finish keeps the surface calm and mirror like in the evening, when low recessed lighting picks out the deck and the water holds the last of the sky.",
     ],
   },
   {
@@ -115,11 +46,11 @@ export const projects: Project[] = [
     category: "Plunge pool",
     setting: "Compact yard",
     year: "Concept",
-    photo: "project-courtyard",
+    photo: "courtyard",
     summary:
-      "A small, deep plunge pool that makes the most of a tight yard without giving up the deck.",
+      "A small, deep plunge pool that makes the most of a tight yard without giving up the patio.",
     intro:
-      "A compact plunge pool concept for a small yard, proof that a tight footprint can still hold a real pool.",
+      "A compact plunge pool for a small backyard, proof that a tight footprint can still hold a real pool and a place to sit.",
     scope: ["Plunge pool", "Bench seat", "Wide paver patio", "Privacy planting"],
     details: [
       { label: "Footprint", value: "Compact, deep" },
@@ -129,30 +60,76 @@ export const projects: Project[] = [
     ],
     story: [
       "On a small lot the patio matters as much as the water, so the pool is kept tight and deep with a full width bench for sitting. The coping sits flush with the pavers for one clean surface underfoot.",
-      "Planting around the fence line gives the yard privacy without eating into the usable deck.",
+      "Planting along the boundary gives the yard privacy without eating into the usable deck, so the whole space still feels open.",
     ],
   },
   {
-    slug: "palm-court",
-    name: "Palm Court",
-    category: "Resort style pool",
-    setting: "Entertaining lot",
+    slug: "the-glasshouse",
+    name: "The Glasshouse",
+    category: "Indoor pool",
+    setting: "Year round home",
     year: "Concept",
-    photo: "project-resort",
+    photo: "indoor",
     summary:
-      "A generous pool built for gathering, with a shaded cabana and room to move around the water.",
+      "An indoor lap pool built into the home, glass tiled and lit so it works in every season.",
     intro:
-      "A resort style pool for a lot built around entertaining, with shade, seating, and a long approach to the water.",
-    scope: ["Large pool", "Cabana", "Deck lounge zones", "Mature palm planting"],
+      "An indoor pool for a family that wanted to swim all year, set into the house with daylight on one side and warm stone underfoot.",
+    scope: ["Indoor lap pool", "Glass mosaic finish", "Climate handling", "Step entry"],
     details: [
-      { label: "Scale", value: "Generous, social" },
-      { label: "Shade", value: "Built cabana" },
-      { label: "Zones", value: "Multiple lounge areas" },
-      { label: "Planting", value: "Mature palms" },
+      { label: "Type", value: "Indoor lap pool" },
+      { label: "Finish", value: "Glass mosaic" },
+      { label: "Entry", value: "Full width steps" },
+      { label: "Use", value: "Year round" },
     ],
     story: [
-      "This one is built for people. The deck is sized for groups, with distinct lounge zones so the space works whether it is two people or twenty.",
-      "A cabana gives a shaded base near the water, and mature palms frame the pool so it feels established from the first season.",
+      "Built inside the home, the pool runs as a clean rectangle with a full width step entry at one end. A glass mosaic interior keeps the water a deep, even blue under the room lighting.",
+      "Large windows bring daylight onto the surface, and the surround is handled so the space stays comfortable to sit in, not just to swim.",
+    ],
+  },
+  {
+    slug: "evening-light",
+    name: "Evening Light",
+    category: "Backyard pool",
+    setting: "Family home",
+    year: "Concept",
+    photo: "evening",
+    summary:
+      "A classic backyard pool lit for the evening, with the house and water reading as one warm scene.",
+    intro:
+      "A family backyard pool designed around the evening, when the lit house and the pool should feel like a single, settled picture.",
+    scope: ["Backyard pool", "Lawn surround", "Facade and pool lighting", "Soft planting"],
+    details: [
+      { label: "Setting", value: "Lawn and patio" },
+      { label: "Lighting", value: "Warm, layered" },
+      { label: "Edge", value: "Stone coping" },
+      { label: "Feel", value: "Classic, settled" },
+    ],
+    story: [
+      "The pool sits in the lawn close to the house, with a stone coping that matches the home. The shape is kept classic so it will not date, and the planting is soft and low around the edges.",
+      "Lighting is the quiet move here. The facade and the pool are lit together at a low level, so by evening the house and the water read as one warm scene from the patio.",
+    ],
+  },
+  {
+    slug: "stone-terrace",
+    name: "Stone Terrace",
+    category: "Pool and terrace",
+    setting: "Hillside home",
+    year: "Concept",
+    photo: "stone",
+    summary:
+      "A pool set into a stone terrace below the house, drawn to belong to the masonry and the slope.",
+    intro:
+      "A pool and terrace for a stone home on a slope, where the water needed to sit naturally within the existing masonry and grade.",
+    scope: ["Terraced pool", "Natural stone surround", "Retaining and steps", "Framed planting"],
+    details: [
+      { label: "Setting", value: "Terraced slope" },
+      { label: "Surround", value: "Natural stone" },
+      { label: "Access", value: "Stone steps" },
+      { label: "Style", value: "Warm, classic" },
+    ],
+    story: [
+      "The home is built in stone and steps down the slope, so the pool is set into a terrace held by the same masonry. From the house it reads as part of the building rather than an addition in the yard.",
+      "Stone steps carry you down to the water, and planting is kept to framed beds so the terrace stays open and the stone does the talking.",
     ],
   },
 ];

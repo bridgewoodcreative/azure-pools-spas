@@ -22,7 +22,7 @@ export default function ProcessPage() {
         eyebrow="The process"
         title="Design, build, enjoy."
         intro="Three phases, one team. Because the studio that designs your pool also builds it, the pool you swim in is the pool you were shown."
-        photo="services-design"
+        photo="garden"
       />
 
       <section className="bg-shell py-16 md:py-28">
@@ -56,12 +56,12 @@ export default function ProcessPage() {
           </Reveal>
           <Reveal delay={120} className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-water">
             <Image
-              src={photos.process.src}
-              alt="A calm pool at the water line, reflecting the sky"
+              src={photos.evening.src}
+              alt="A backyard pool lit warmly at dusk beside the house"
               fill
               sizes="(min-width: 768px) 45vw, 100vw"
               placeholder="blur"
-              blurDataURL={photos.process.blurDataURL}
+              blurDataURL={photos.evening.blurDataURL}
               className="object-cover"
             />
           </Reveal>

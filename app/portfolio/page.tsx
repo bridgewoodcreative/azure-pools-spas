@@ -19,7 +19,7 @@ export default function PortfolioPage() {
         eyebrow="Portfolio"
         title="Pools drawn for one site at a time."
         intro="A set of representative concepts that show the range of the studio. Tap any tile to expand it and read how the project comes together."
-        photo="process"
+        photo="hero"
       />
 
       <section className="bg-shell py-16 md:py-24">

@@ -15,7 +15,7 @@ export const services: Service[] = [
     blurb:
       "Pools drawn for one site and one family. Geometric or free-form, edge to edge, finished the way you want to feel the water.",
     points: ["Geometric and free-form", "Vanishing and slot edges", "Sun shelves and benches", "Custom interior finishes"],
-    photo: "project-geometric",
+    photo: "modern",
   },
   {
     slug: "spas",
@@ -23,7 +23,7 @@ export const services: Service[] = [
     blurb:
       "Warm water within reach of the cool. Raised or in-ground spas that spill into the pool and hold their heat through the evening.",
     points: ["Raised and flush spas", "Spillover detailing", "Bench and jet layouts", "Efficient heating"],
-    photo: "project-courtyard",
+    photo: "courtyard",
   },
   {
     slug: "water-features",
@@ -31,7 +31,7 @@ export const services: Service[] = [
     blurb:
       "The sound of moving water, placed with intent. Sheer descents, scuppers, and stone runs that carry the garden into the pool.",
     points: ["Sheer descent walls", "Scuppers and spouts", "Natural stone runs", "Tuned for sound"],
-    photo: "services-water",
+    photo: "evening",
   },
   {
     slug: "renovations",
@@ -39,7 +39,7 @@ export const services: Service[] = [
     blurb:
       "A tired pool, brought back. New surfaces, new lines, and the quiet systems that make an older pool feel new again.",
     points: ["Resurfacing", "Coping and tile", "Equipment upgrades", "Layout reworks"],
-    photo: "project-resort",
+    photo: "stone",
   },
   {
     slug: "outdoor-living",
@@ -47,7 +47,7 @@ export const services: Service[] = [
     blurb:
       "The space around the water. Decks, shade, planting, and lighting designed together so the whole yard reads as one.",
     points: ["Decks and patios", "Cabanas and shade", "Planting design", "Low-level lighting"],
-    photo: "services-design",
+    photo: "garden",
   },
 ];
 

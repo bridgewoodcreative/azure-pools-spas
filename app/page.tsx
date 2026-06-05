@@ -185,12 +185,12 @@ export default function HomePage() {
       <section className="bg-foam pb-4">
         <Reveal className="relative mx-auto aspect-[16/9] w-full max-w-[110rem] overflow-hidden md:aspect-[21/9]">
           <Image
-            src={photos["project-tropical"].src}
-            alt="A lagoon style pool set into a planted garden"
+            src={photos.garden.src}
+            alt="A landscaped backyard pool seen from above"
             fill
             sizes="100vw"
             placeholder="blur"
-            blurDataURL={photos["project-tropical"].blurDataURL}
+            blurDataURL={photos.garden.blurDataURL}
             className="object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-abyss/40 to-transparent" />

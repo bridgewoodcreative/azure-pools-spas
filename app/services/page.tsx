@@ -22,7 +22,7 @@ export default function ServicesPage() {
         eyebrow="Services"
         title="Five ways we shape water."
         intro="From a first pour to a full backyard, the studio works across the whole project so the water and the space around it read as one."
-        photo="services-water"
+        photo="hero"
       />
 
       <section className="bg-shell py-16 md:py-24">

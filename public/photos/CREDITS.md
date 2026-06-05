@@ -1,22 +1,19 @@
 # Photography credits
 
-All imagery is royalty-free and cleared for commercial use. Sources below.
-Images were downsized and recompressed for the web (see `scripts/optimize-photos.mjs`).
+All imagery is royalty-free and cleared for commercial use. The set focuses on
+residential pools. Images were downsized and recompressed for the web (see
+`scripts/optimize-photos.mjs`).
 
 | File | Subject | Source | License |
 |------|---------|--------|---------|
-| hero.jpg | Infinity pool over a bay | Wikimedia Commons, "Villa Angelina Luxury Suites Infinity Pool" | CC BY-SA |
-| project-geometric.jpg | Geometric coastal pool and spa | Pexels (photo 261327) | Pexels License |
-| project-infinity.jpg | Infinity edge pool over the ocean | Openverse / pd.w.org | CC0 |
-| project-desert.jpg | Reflecting pool against rock, dusk | Wikimedia Commons, "Amangiri Pool at Sunset" | CC BY |
-| project-tropical.jpg | Lagoon pool with pavilion | Pexels (photo 261411) | Pexels License |
-| project-courtyard.jpg | Compact pool with paver patio | Pexels (photo 261410) | Pexels License |
-| project-resort.jpg | Resort pool with cabana and palms | Pexels (photo 261101) | Pexels License |
-| services-design.jpg | Aerial of a landscaped pool garden | Openverse / pd.w.org | CC0 |
-| services-water.jpg | Turquoise water and timber jetty | Pexels (photo 1320686) | Pexels License |
-| about.jpg | Stone villa with pool | Openverse / rawpixel | CC0 |
-| process.jpg | Calm infinity pool, water level view | Openverse / pd.w.org | CC0 |
+| hero.jpg | Geometric backyard pool and spa at a coastal home | Pexels (photo 261327) | Pexels License |
+| modern.jpg | Modern home with a reflecting pool at dusk | Openverse / rawpixel | CC0 |
+| courtyard.jpg | Compact residential plunge pool and patio | Pexels (photo 261410) | Pexels License |
+| indoor.jpg | Indoor residential lap pool | Pexels (photo 261045) | Pexels License |
+| evening.jpg | Family home with a lit backyard pool at dusk | Openverse / rawpixel | CC0 |
+| stone.jpg | Stone home with a pool terrace | Openverse / rawpixel | CC0 |
+| garden.jpg | Landscaped backyard pool from above | Openverse / WordPress Photo Directory | CC0 |
 
-The Pexels License and CC0 require no attribution. CC BY and CC BY-SA require
-attribution, provided here. Replace any image freely without code changes by
-swapping the file and rerunning the optimize script.
+The Pexels License and CC0 require no attribution. To replace an image, drop a
+new source into `public/photos/_cand2`, update the map in
+`scripts/optimize-photos.mjs`, and rerun `node scripts/optimize-photos.mjs`.
