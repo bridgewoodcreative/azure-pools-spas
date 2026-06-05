@@ -18,26 +18,26 @@ export type Project = {
 // These are illustrative capability pieces, not specific client commissions.
 export const projects: Project[] = [
   {
-    slug: "still-water",
-    name: "Still Water",
-    category: "Modern backyard pool",
-    setting: "New build home",
+    slug: "ledge-and-light",
+    name: "Ledge and Light",
+    category: "Geometric pool and spa",
+    setting: "Coastal home",
     year: "Concept",
-    photo: "modern",
+    photo: "hero",
     summary:
-      "A calm pool set tight to a modern house, drawn so the water mirrors the architecture at dusk.",
+      "A crisp rectilinear pool with a raised spa, set into a wide stone deck at a coastal home.",
     intro:
-      "A pool for a modern new build, where the brief was a clean sheet of water that reflects the house rather than competing with it.",
-    scope: ["Rectilinear pool", "Flush deck edge", "Recessed lighting", "Reflective surface"],
+      "A clean geometric pool for a flat coastal lot, where the brief was simple lines and an easy path from the house to the water.",
+    scope: ["Rectangular pool", "Raised spa with spillover", "Stone surround deck", "Lounge terrace"],
     details: [
       { label: "Shape", value: "Rectilinear" },
-      { label: "Edge", value: "Flush with deck" },
-      { label: "Finish", value: "Dark interior" },
-      { label: "Mood", value: "Still, reflective" },
+      { label: "Finish", value: "Pale interior" },
+      { label: "Spa", value: "Raised, flush spillover" },
+      { label: "Deck", value: "Honed stone" },
     ],
     story: [
-      "The house has long, low lines, so the pool keeps to a simple rectangle that runs parallel to it. A flush deck edge means the water sits right at the surface of the patio, with nothing to interrupt the reflection.",
-      "A darker interior finish keeps the surface calm and mirror like in the evening, when low recessed lighting picks out the deck and the water holds the last of the sky.",
+      "The site sits low and open to the shoreline, so the design keeps everything level and lets the long axis of the pool point toward the view. A raised spa anchors one end and spills back into the pool in a thin sheet.",
+      "A broad stone deck wraps the water on three sides, wide enough for loungers without crowding the edge. The interior finish reads turquoise in full sun and a deeper teal as the light drops.",
     ],
   },
   {
@@ -87,49 +87,26 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "evening-light",
-    name: "Evening Light",
+    slug: "garden-overhead",
+    name: "Garden Overhead",
     category: "Backyard pool",
-    setting: "Family home",
+    setting: "Planted garden",
     year: "Concept",
-    photo: "evening",
+    photo: "garden",
     summary:
-      "A classic backyard pool lit for the evening, with the house and water reading as one warm scene.",
+      "A backyard pool planned from above, set into a garden of paths, beds, and quiet corners.",
     intro:
-      "A family backyard pool designed around the evening, when the lit house and the pool should feel like a single, settled picture.",
-    scope: ["Backyard pool", "Lawn surround", "Facade and pool lighting", "Soft planting"],
+      "A pool drawn as part of a whole garden plan, where the paths, planting, and pool were laid out together so the yard reads as one design.",
+    scope: ["Backyard pool", "Garden plan", "Paved paths", "Layered planting"],
     details: [
-      { label: "Setting", value: "Lawn and patio" },
-      { label: "Lighting", value: "Warm, layered" },
-      { label: "Edge", value: "Stone coping" },
-      { label: "Feel", value: "Classic, settled" },
+      { label: "Approach", value: "Planned in plan" },
+      { label: "Surround", value: "Stone paths" },
+      { label: "Planting", value: "Layered beds" },
+      { label: "Feel", value: "Private garden" },
     ],
     story: [
-      "The pool sits in the lawn close to the house, with a stone coping that matches the home. The shape is kept classic so it will not date, and the planting is soft and low around the edges.",
-      "Lighting is the quiet move here. The facade and the pool are lit together at a low level, so by evening the house and the water read as one warm scene from the patio.",
-    ],
-  },
-  {
-    slug: "stone-terrace",
-    name: "Stone Terrace",
-    category: "Pool and terrace",
-    setting: "Hillside home",
-    year: "Concept",
-    photo: "stone",
-    summary:
-      "A pool set into a stone terrace below the house, drawn to belong to the masonry and the slope.",
-    intro:
-      "A pool and terrace for a stone home on a slope, where the water needed to sit naturally within the existing masonry and grade.",
-    scope: ["Terraced pool", "Natural stone surround", "Retaining and steps", "Framed planting"],
-    details: [
-      { label: "Setting", value: "Terraced slope" },
-      { label: "Surround", value: "Natural stone" },
-      { label: "Access", value: "Stone steps" },
-      { label: "Style", value: "Warm, classic" },
-    ],
-    story: [
-      "The home is built in stone and steps down the slope, so the pool is set into a terrace held by the same masonry. From the house it reads as part of the building rather than an addition in the yard.",
-      "Stone steps carry you down to the water, and planting is kept to framed beds so the terrace stays open and the stone does the talking.",
+      "Seen from above, the design is really a garden plan with a pool at its center. The paths, beds, and lawn are set out around the water so every route through the yard leads back to it.",
+      "Keeping the pool tight to a paved island leaves room for deep planting on all sides, so from the ground the water sits inside a green, private garden.",
     ],
   },
 ];

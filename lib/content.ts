@@ -15,7 +15,7 @@ export const services: Service[] = [
     blurb:
       "Pools drawn for one site and one family. Geometric or free-form, edge to edge, finished the way you want to feel the water.",
     points: ["Geometric and free-form", "Vanishing and slot edges", "Sun shelves and benches", "Custom interior finishes"],
-    photo: "modern",
+    photo: "hero",
   },
   {
     slug: "spas",
@@ -31,7 +31,7 @@ export const services: Service[] = [
     blurb:
       "The sound of moving water, placed with intent. Sheer descents, scuppers, and stone runs that carry the garden into the pool.",
     points: ["Sheer descent walls", "Scuppers and spouts", "Natural stone runs", "Tuned for sound"],
-    photo: "evening",
+    photo: "indoor",
   },
   {
     slug: "renovations",
@@ -39,7 +39,7 @@ export const services: Service[] = [
     blurb:
       "A tired pool, brought back. New surfaces, new lines, and the quiet systems that make an older pool feel new again.",
     points: ["Resurfacing", "Coping and tile", "Equipment upgrades", "Layout reworks"],
-    photo: "stone",
+    photo: "courtyard",
   },
   {
     slug: "outdoor-living",

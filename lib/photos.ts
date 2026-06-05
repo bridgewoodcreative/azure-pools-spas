@@ -1,5 +1,5 @@
 // Auto-generated photo manifest (scripts/optimize-photos.mjs).
-// Royalty-free residential pool imagery: Pexels, Openverse (CC0), rawpixel (CC0). See public/photos/CREDITS.md.
+// Royalty-free residential pool imagery: Pexels and Openverse (CC0). See public/photos/CREDITS.md.
 export type PhotoMeta = { src: string; width: number; height: number; blurDataURL: string };
 export const photos = {
   "hero": {
@@ -7,12 +7,6 @@ export const photos = {
     "width": 2400,
     "height": 1600,
     "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZgCdMoMnJEm6RHRHe2HbAAD3097rFRpvp7FYPmVA3sdnVBQ1FcjnkBAIXwSqsK03FxlEC/9MQmSlPAzs3NbU2pC/MmtsPgm8JY9QeuDYTtcGe5O7AAAA"
-  },
-  "modern": {
-    "src": "/photos/modern.jpg",
-    "width": 1300,
-    "height": 731,
-    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABwBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JYgCdMoRwBtABkVKcG4JCGYRAAADyWpS2x0pczk4it8c3cEjw3toiTvRaXI7E8Oj3kfhsMx6KxfkwlYcRA5ur8EbZBtTuwD9Cbn7iNpjP7lZxzvW/zd9dtAGmt1qdk1zgAA=="
   },
   "courtyard": {
     "src": "/photos/courtyard.jpg",
@@ -23,20 +17,8 @@ export const photos = {
   "indoor": {
     "src": "/photos/indoor.jpg",
     "width": 1800,
-    "height": 1200,
-    "blurDataURL": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JbACdACBhb4sOXsHz3qMYdAAA/sQC1lz7UAs4IkbMzmFLfTJy/OdiVBHVNSADofhBH7u88Cv35BXVmKCkirHkBZJpJLSRF8oSSZVQGa6xu/RRHTkc8unI2h836jgAAAA="
-  },
-  "evening": {
-    "src": "/photos/evening.jpg",
-    "width": 1300,
-    "height": 870,
-    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBWAA4X3+peZJIDu2wAA/uzOrG+O2AEcT5EtUdqrRcx97o7bNOGk8Ww3uCVNzaOO4HWN/fmf8671NHuuVwqpqvWMDQZuOoAAAA=="
-  },
-  "stone": {
-    "src": "/photos/stone.jpg",
-    "width": 1300,
-    "height": 975,
-    "blurDataURL": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBACdASoUAA8APu1iqk2ppaQiMAgBMB2JagCdMoMYAEIMrE8o1hcp0QAA3XFmoQPSTf74IymFwxlNFkQf/qNGJ57grwh/zrMiIF1hNble4XLSWGMv4fq6DJJmAyfAkofdS6i5XrxXN5FR03kVerNY6sbrXQwAAAA="
+    "height": 1201,
+    "blurDataURL": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JbACdL1yB1RZWMNu1cddD34VQAP7Do2QzelNESlUDsRil6M1fM58o8xRbmooHF9nA7N+CTzpr+btYnOZ3LxiGBzg/kmv0t7n8ssmPP+5g95ITzcqjK1sAqlVtaAAA"
   },
   "garden": {
     "src": "/photos/garden.jpg",

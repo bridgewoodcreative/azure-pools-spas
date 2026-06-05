@@ -39,7 +39,7 @@ export default function AboutPage() {
         eyebrow="About"
         title="A studio that thinks in water."
         intro="Azure Pools & Spas is a small, design-led team. We take on a measured number of projects so each one gets the attention a custom pool deserves."
-        photo="stone"
+        photo="courtyard"
       />
 
       {/* Narrative */}
@@ -78,12 +78,12 @@ export default function AboutPage() {
 
           <Reveal delay={120} className="relative aspect-[3/4] overflow-hidden rounded-2xl shadow-water">
             <Image
-              src={photos.stone.src}
-              alt="A stone home with a custom pool in the foreground"
+              src={photos.hero.src}
+              alt="A geometric backyard pool and spa at a coastal home"
               fill
               sizes="(min-width: 768px) 40vw, 100vw"
               placeholder="blur"
-              blurDataURL={photos.stone.blurDataURL}
+              blurDataURL={photos.hero.blurDataURL}
               className="object-cover"
             />
           </Reveal>

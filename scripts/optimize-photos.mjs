@@ -3,15 +3,12 @@ import { writeFile, readdir, unlink } from "node:fs/promises";
 
 const C = "public/photos/_cand2";
 const OUT = "public/photos";
-// outName : [candidateFile, maxWidth]  -- residential pool set
+// outName : [candidateFile, maxWidth] -- clean, royalty-free residential pools
 const map = {
-  hero: ["src-hero.jpg", 2400], // geometric coastal residential pool + spa
-  modern: ["rax_modarch_hd.jpg", 1300], // modern home, reflecting pool, dusk
+  hero: ["src-hero.jpg", 2400], // geometric backyard pool + spa at a coastal home
   courtyard: ["src-courtyard.jpg", 1800], // compact residential plunge pool
-  indoor: ["px-261045.jpg", 1800], // indoor residential lap pool
-  evening: ["rax_modhouse_hd.jpg", 1300], // traditional home, lit pool at dusk
-  stone: ["src-stone.jpg", 1300], // stone villa with pool
-  garden: ["src-garden.jpg", 2048], // landscaped backyard pool, aerial
+  indoor: ["src-indoor.jpg", 1800], // indoor residential lap pool
+  garden: ["src-garden.jpg", 2048], // landscaped backyard pool, overhead
 };
 
 // Clear previously optimized jpgs so no stale files ship.
@@ -45,7 +42,7 @@ for (const [name, [file, w]] of Object.entries(map)) {
 
 const ts =
   `// Auto-generated photo manifest (scripts/optimize-photos.mjs).\n` +
-  `// Royalty-free residential pool imagery: Pexels, Openverse (CC0), rawpixel (CC0). See public/photos/CREDITS.md.\n` +
+  `// Royalty-free residential pool imagery: Pexels and Openverse (CC0). See public/photos/CREDITS.md.\n` +
   `export type PhotoMeta = { src: string; width: number; height: number; blurDataURL: string };\n` +
   `export const photos = ${JSON.stringify(manifest, null, 2)} as const satisfies Record<string, PhotoMeta>;\n` +
   `export type PhotoName = keyof typeof photos;\n`;

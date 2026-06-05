@@ -56,12 +56,12 @@ export default function ProcessPage() {
           </Reveal>
           <Reveal delay={120} className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-water">
             <Image
-              src={photos.evening.src}
-              alt="A backyard pool lit warmly at dusk beside the house"
+              src={photos.courtyard.src}
+              alt="A compact residential plunge pool and patio"
               fill
               sizes="(min-width: 768px) 45vw, 100vw"
               placeholder="blur"
-              blurDataURL={photos.evening.blurDataURL}
+              blurDataURL={photos.courtyard.blurDataURL}
               className="object-cover"
             />
           </Reveal>
